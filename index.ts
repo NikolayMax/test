@@ -3,6 +3,7 @@ interface IItem{
     num: number;
     bool?: boolean;
 }
+
 const obj: IItem = {
     str: 'sdf',
     num: 123,
@@ -14,6 +15,9 @@ let num: number = 123;
 function getUser(props: IItem): boolean | IItem {
     if(props.bool){
         return false
+    }
+    if(props.num == 1){
+        return true
     }
     return obj
 }
