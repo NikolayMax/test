@@ -7,3 +7,5 @@ const family = 'makhmutov'
 const fetch = () => {
     
 }
+
+class claculate{}
