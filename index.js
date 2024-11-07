@@ -7,3 +7,4 @@ const family = 'makhmutov'
 const fetch = () => {
     
 }
+const goToUrl(){}
